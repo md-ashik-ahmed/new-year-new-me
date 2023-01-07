@@ -1,5 +1,4 @@
 * {
-   
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -10,6 +9,7 @@
     width: 1600px;
     height: 808px;
 }
+
 .header .title {
     text-align: right;
     padding-top: 250px;
@@ -17,9 +17,9 @@
     padding-left: 640px; 
     color: #FFFFFF;
     font-weight: 600;
-    font-size: 60px;
-   
+    font-size: 60px;   
 }
+
 .header .description{
     padding-right: 140px;
     color: #FFFFFF;
@@ -43,76 +43,74 @@
     background-color: #FD6E0A; 
 }
     
-    .title {
-        margin: 0 200px;
+.title {
+    margin: 0 200px;
 
-    }
+}
 
-    .description {
-        margin: 0 200px;
+.description {
+   margin: 0 200px;
 
-    }
-    
-
+}
     /* banner styles */
-    .banner {
+.banner {
         display: flex;
         margin: 100px 190px;
         align-items: center;
         gap: 25px;
-    }
+}
 
-    .banner-head {
+.banner-head {
         margin-left: 50px;
-    }
+}
 
-    .banner-title {
+.banner-title {
         font-weight: 700;
         font-size: 40px;
         color: #151414;
         margin-bottom: 20px;
 
-    }
+}
 
-    .banner-description {
+.banner-description {
         font-weight: 400;
        
         color: #444343;
 
-    }
+}
 
-    .banner .banner-style{
+.banner .banner-style{
         gap:10px;
         color: #444343;
         
-    }
+}
 
     /* My Plans style */
-    .about-info-container {
+.about-info-container {
         display: flex;
         justify-content: space-around;
         margin: 100px 200px;
-    }
+}
 
-    .my-plans {
+.my-plans {
         text-align: center;
-    }
+}
 
-    .about .info-title {
+.about .info-title {
         font-weight: 700;
         font-size: 30px;
         text-align: center;
         color: #151414;
-    }
+}
 
-    .info-description {
+.info-description {
         font-weight: 500;
         font-size: 20px;
         color: #737272;
-    }
+}
 
     /* last section */
-    .container{
+.container{
        
         position: relative;
         color: #fff;
@@ -122,19 +120,17 @@
         border: 0;
         border-radius: 5px;
         
-        background: linear-gradient(90deg, #01335c 0%, rgba(1, 59, 107, 0) 100%), url('../images/watch.png');
-       
-    }
-    .container h2{
+        background: linear-gradient(90deg, #01335c 0%, rgba(1, 59, 107, 0) 100%), url('../images/watch.png');       
+}
+.container h2{
         font-size: 40px;
         padding-left: 30px;
         padding-top: 20px;
         padding-right: 400px;
-        padding-top: 15px;
-       
-    }
+        padding-top: 15px;      
+}
 
-    .container button{
+.container button{
         width: 140px;
         height: 50px;
         color: #005FAC;
@@ -143,38 +139,35 @@
         margin-left: 30px;
         margin-bottom: 40px;
         border: 0;
-        border-radius: 5px;
-       
-    }
+        border-radius: 5px;       
+}
       
     /* Future styles */
-    .future {
+.future {
         display: flex;
         gap: 230px;
         background: #151414;
         padding: 130px 180px;
-        margin-top: 80px;
-       
-    }
+        margin-top: 80px;      
+}
 
-    .future .banner-title {
+.future .banner-title {
         text-align: left;
         color: #F8F8F8;
-    }
+}
 
-    .future .sub-banner-title {
+.future .sub-banner-title {
         color: #F8F8F8;
         margin-top: 30px;
-    }
+}
 
-    .future-description {
+.future-description {
         color: #FFFFFF;
         width: 485px;
         height: 78px;
-        
+}
 
-    }
-    .form-style{
+.form-style{
     
         border-radius: 8px;
         width: 250px;
@@ -185,12 +178,10 @@
         background-color:#fff;
         padding-top: 20px;
         padding-left: 15px;
-        margin-bottom: 20px;
-       
-        
+        margin-bottom: 20px;   
+}
 
-    }
-    .btn-primary {
+.btn-primary {
         color: azure;
         font-weight: 700;
         font-size: 18px;
@@ -200,17 +191,17 @@
         height: 50px;
         border-radius: 5px;
         background-color: #ee7219;
-    }
+}
 
-    .footer-description {
+.footer-description {
         color: #FFFFFF;
-    }
+}
 
-    .future input[type="text"] {
+.future input[type="text"] {
         margin-bottom: 20px;
         height: 40px;
         width: 200px;
         padding-left: 20px;
-    }
+}
     
    
