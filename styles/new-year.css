@@ -1,0 +1,171 @@
+* {
+    /* margin: 0; */
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header styles */
+
+
+.header{
+    background: url('../images/banner/banner3.png');
+    width: 1600px;
+    height: 808px;
+}
+.header .title {
+    text-align: right;
+    padding-top: 250px;
+    padding-right: 140px;
+    padding-left: 640px; 
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 60px;
+   
+}
+.header .description{
+    padding-right: 140px;
+    color: #FFFFFF;
+    text-align: right;
+    padding-left: 690px; 
+}
+    
+    
+
+    .title {
+        margin: 0 200px;
+
+    }
+
+    .description {
+        margin: 0 200px;
+
+    }
+
+
+    
+
+    /* banner styles */
+    .banner {
+        display: flex;
+        margin: 100px 190px;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .banner-head {
+        margin-left: 50px;
+    }
+
+    .banner-title {
+        font-weight: 700;
+        font-size: 40px;
+        color: #151414;
+
+    }
+
+    .banner-description {
+        font-weight: 400;
+        font-size: 16px;
+        color: #444343;
+
+    }
+
+    .list-items {
+        color: #444343;
+    }
+
+    /* My Plans style */
+    .about-info-container {
+        display: flex;
+        justify-content: space-around;
+        margin: 100px 200px;
+
+    }
+
+    .my-plans {
+        text-align: center;
+
+    }
+
+    .about .info-title {
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+        color: #151414;
+    }
+
+    .info-description {
+        font-weight: 500;
+        font-size: 20px;
+        color: #737272;
+    }
+
+    /* last section */
+    .container{
+        background: url('../images/watch.png');
+        position: relative;
+        color: #fff;
+        height: 230px;
+        margin: 0 180px;
+        background-size: 100%;
+       
+       
+    }
+    h1{
+        font-size: 40px;
+        padding-left: 30px;
+        padding-top: 20px;
+        padding-right: 400px;
+    }
+      
+        
+
+
+    /* Future styles */
+    .future {
+        display: flex;
+        gap: 230px;
+        background: #151414;
+        padding: 130px 200px;
+        margin-top: 100px;
+
+    }
+
+    .future .banner-title {
+        text-align: left;
+        color: #F8F8F8;
+    }
+
+    .future .sub-banner-title {
+        color: #F8F8F8;
+    }
+
+    .future-description {
+        color: #FFFFFF;
+        width: 485px;
+        height: 78px;
+    }
+    .btn-primary {
+        color: azure;
+        font-weight: 700;
+        font-size: 15px;
+        width: 150px;
+        border: 0;
+        padding: 5px 20px;
+        height: 50px;
+        border-radius: 5px;
+        background-color: #FD6E0A;
+    }
+
+    .footer-description {
+        color: #FFFFFF;
+
+    }
+
+    .future input[type="text"] {
+        margin-bottom: 20px;
+        height: 40px;
+        width: 200px;
+        padding-left: 20px;
+
+    }
