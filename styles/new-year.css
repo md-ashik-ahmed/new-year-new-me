@@ -1,11 +1,9 @@
 * {
-    /* margin: 0; */
-
+   
     font-family: 'Open Sans', sans-serif;
 }
 
 /* header styles */
-
 
 .header{
     background: url('../images/banner/banner3.png');
@@ -26,7 +24,7 @@
     padding-right: 140px;
     color: #FFFFFF;
     text-align: right;
-    padding-left: 690px; 
+    padding-left: 650px; 
     padding-bottom: 20px;
 }
     
@@ -35,17 +33,16 @@
     color: #FFFFFF;
     text-align: right;
     margin-left: 1110px;
-    font-weight: 700;
-    font-size: 15px;
-    width: 150px;
+    font-weight: 600;
+    font-size: 18px;
+    height: 64px;
     border: 0;
-    padding: 5px 30px;
+    padding: 5px 25px;
     height: 50px;
     border-radius: 5px;
     background-color: #FD6E0A; 
 }
     
-
     .title {
         margin: 0 200px;
 
@@ -55,10 +52,6 @@
         margin: 0 200px;
 
     }
-    
-
-    
-
     
 
     /* banner styles */
@@ -77,18 +70,21 @@
         font-weight: 700;
         font-size: 40px;
         color: #151414;
+        margin-bottom: 20px;
 
     }
 
     .banner-description {
         font-weight: 400;
-        font-size: 16px;
+       
         color: #444343;
 
     }
 
-    .list-items {
+    .banner .banner-style{
+        gap:10px;
         color: #444343;
+        
     }
 
     /* My Plans style */
@@ -96,12 +92,10 @@
         display: flex;
         justify-content: space-around;
         margin: 100px 200px;
-
     }
 
     .my-plans {
         text-align: center;
-
     }
 
     .about .info-title {
@@ -129,8 +123,6 @@
         border-radius: 5px;
         
         background: linear-gradient(90deg, #01335c 0%, rgba(1, 59, 107, 0) 100%), url('../images/watch.png');
-
-        
        
     }
     .container h2{
@@ -138,50 +130,31 @@
         padding-left: 30px;
         padding-top: 20px;
         padding-right: 400px;
-        /* height: 90%; */
-
-        /* background-image: linear-gradient(to right,
-        rgba(0,0,0,1),
-        rgba(0,0,0,.3),
-        rgba(0,0,0,.7),
-        rgba(0,0,0,0));
-        */
-         
-     
-        
-
-
-
-
-
-
+        padding-top: 15px;
+       
     }
+
     .container button{
-        width: 130px;
+        width: 140px;
         height: 50px;
         color: #005FAC;
         font-weight: 600;
         font-size: 20px;
         margin-left: 30px;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
         border: 0;
         border-radius: 5px;
-
-     
        
     }
       
-        
-
-
     /* Future styles */
     .future {
         display: flex;
         gap: 230px;
         background: #151414;
-        padding: 130px 200px;
-        margin-top: 100px;
-
+        padding: 130px 180px;
+        margin-top: 80px;
+       
     }
 
     .future .banner-title {
@@ -191,28 +164,46 @@
 
     .future .sub-banner-title {
         color: #F8F8F8;
+        margin-top: 30px;
     }
 
     .future-description {
         color: #FFFFFF;
         width: 485px;
         height: 78px;
+        
+
+    }
+    .form-style{
+    
+        border-radius: 8px;
+        width: 250px;
+        height: 40px;
+        border: 0;
+        font-weight: 700;
+        font-size: 15px;
+        background-color:#fff;
+        padding-top: 20px;
+        padding-left: 15px;
+        margin-bottom: 20px;
+       
+        
+
     }
     .btn-primary {
         color: azure;
         font-weight: 700;
-        font-size: 15px;
+        font-size: 18px;
         width: 150px;
         border: 0;
         padding: 5px 20px;
         height: 50px;
         border-radius: 5px;
-        background-color: #FD6E0A;
+        background-color: #ee7219;
     }
 
     .footer-description {
         color: #FFFFFF;
-
     }
 
     .future input[type="text"] {
@@ -220,7 +211,6 @@
         height: 40px;
         width: 200px;
         padding-left: 20px;
-
     }
     
    
